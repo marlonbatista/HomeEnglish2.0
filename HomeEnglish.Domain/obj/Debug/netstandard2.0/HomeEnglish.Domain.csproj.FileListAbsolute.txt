@@ -1,0 +1,11 @@
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\obj\Debug\netstandard2.0\HomeEnglish.Domain.csprojAssemblyReference.cache
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\obj\Debug\netstandard2.0\HomeEnglish.Domain.AssemblyInfoInputs.cache
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\obj\Debug\netstandard2.0\HomeEnglish.Domain.AssemblyInfo.cs
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\bin\Debug\netstandard2.0\HomeEnglish.Domain.deps.json
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\bin\Debug\netstandard2.0\HomeEnglish.Domain.dll
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\bin\Debug\netstandard2.0\HomeEnglish.Domain.pdb
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\bin\Debug\netstandard2.0\HomeEnglish.Shared.dll
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\bin\Debug\netstandard2.0\HomeEnglish.Shared.pdb
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\obj\Debug\netstandard2.0\HomeEnglish.Domain.csproj.CopyComplete
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\obj\Debug\netstandard2.0\HomeEnglish.Domain.dll
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\obj\Debug\netstandard2.0\HomeEnglish.Domain.pdb

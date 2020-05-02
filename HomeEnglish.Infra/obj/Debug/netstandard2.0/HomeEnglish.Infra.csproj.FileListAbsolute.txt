@@ -1,0 +1,8 @@
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\bin\Debug\netstandard2.0\HomeEnglish.Infra.deps.json
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\bin\Debug\netstandard2.0\HomeEnglish.Infra.dll
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\bin\Debug\netstandard2.0\HomeEnglish.Infra.pdb
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\obj\Debug\netstandard2.0\HomeEnglish.Infra.csprojAssemblyReference.cache
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\obj\Debug\netstandard2.0\HomeEnglish.Infra.AssemblyInfoInputs.cache
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\obj\Debug\netstandard2.0\HomeEnglish.Infra.AssemblyInfo.cs
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\obj\Debug\netstandard2.0\HomeEnglish.Infra.dll
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\obj\Debug\netstandard2.0\HomeEnglish.Infra.pdb

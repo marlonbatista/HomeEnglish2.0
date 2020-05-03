@@ -90,3 +90,8 @@ C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Te
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\obj\Debug\netcoreapp3.1\HomeEnglish.Tests.csproj.CopyComplete
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\obj\Debug\netcoreapp3.1\HomeEnglish.Tests.dll
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\obj\Debug\netcoreapp3.1\HomeEnglish.Tests.pdb
+c:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\FluentValidator.dll
+c:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Domain.dll
+c:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Shared.dll
+c:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Domain.pdb
+c:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Shared.pdb

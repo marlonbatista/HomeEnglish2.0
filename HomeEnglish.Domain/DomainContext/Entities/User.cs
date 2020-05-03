@@ -9,7 +9,7 @@ namespace HomeEnglish.Domain.Entities
         public Email Email { get; set; }
         public string Password { get; set; }
 
-        public string RecoverdPassword(string Password)
+        public string RecoverPassword(Email email,string Password)
         {
             // todo implementar
             return "";
@@ -22,10 +22,13 @@ namespace HomeEnglish.Domain.Entities
 
         public string Log(string email, string password)
         {
+            // Check email and password exists
             if(this.Email.Address != email || this.Password != password)
             {
                 return $"Welcome to HomeEnglish, {this.Name.toString()} ";
             }
+            
+            // Return message
 
             return "Login or password incorret";
         }

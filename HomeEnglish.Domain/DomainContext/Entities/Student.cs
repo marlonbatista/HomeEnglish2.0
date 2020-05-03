@@ -20,6 +20,7 @@ namespace HomeEnglish.Domain.Entities
             this.Document = new Document(command.Document);
             this.Email = new Email(command.Email);
             this.Vocabulary = new Vocabulary(this.Uid);
+            this.Homeworks = new List<Homework>();
             this.EnglishLevel = command.EnglishLevel;
             this.Address = new Address(
                                     command.Street,

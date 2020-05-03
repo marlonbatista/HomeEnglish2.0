@@ -18,5 +18,15 @@ namespace HomeEnglish.Domain.DomainContext.Entitites
             this.UidStudent = IdStudent;
             this.Questions = new List<Question>();
         }
+
+        public void AddQuestion(Question question)
+        {
+            this.Questions.Add(question);
+        }
+
+        public void RemoveQuestion(Question question)
+        {
+            this.Questions.Remove(question);
+        }
     }
 }

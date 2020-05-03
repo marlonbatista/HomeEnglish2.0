@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using HomeEnglish.Domain.DomainContext.ValueObjects;
 using HomeEnglish.Shared.Entities;
@@ -12,6 +13,7 @@ namespace HomeEnglish.Domain.DomainContext.Entitites
 
         public Question(string text, int index)
         {
+            this.Uid = Guid.NewGuid();
             this.Text = text;
             this.Index = index;
             this.Alternatives = new List<Alternative>();

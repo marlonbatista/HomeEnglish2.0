@@ -1,9 +1,11 @@
+using System;
 using HomeEnglish.Domain.Enumns;
 
 namespace HomeEnglish.Domain.Commands
 {
     public class CreateStudentCommand
     {
+        public Guid UidTeacher { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Document { get; set; }

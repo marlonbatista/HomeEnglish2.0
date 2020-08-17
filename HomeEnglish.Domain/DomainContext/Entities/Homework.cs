@@ -12,12 +12,15 @@ namespace HomeEnglish.Domain.DomainContext.Entitites
         public Guid UidTeacher { get; private set; }
         public Guid UidStudent { get; private set; }
         public IList<Question> Questions { get; private set; }
+        public decimal Score { get; private set; }
+        public decimal Weight { get; private set; }
 
         public Homework(Guid IdTeacher, Guid IdStudent)
         {
             this.UidTeacher = IdTeacher;
             this.UidStudent = IdStudent;
             this.Questions = new List<Question>();
+            this.Score = 0.0M;
         }
 
         public void AddQuestion(Question question)

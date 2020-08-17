@@ -32,21 +32,40 @@ namespace HomeEnglish.Tests
         }
 
         [TestMethod]
-        public void ShouldReturnTrueWhenMarkAlternative()
+        public void ShouldReturnTrueWhenMarktrueAlternative()
         {
-            var question = new Question("How many cats are there on the tree?", 1);
-            var alternative1 = new Alternative(1, "1", 0, false);
-            var alternative2 = new Alternative(2, "2", 2, true);
-            var alternative3 = new Alternative(3, "3", 0, false);
+            var question = new Question("How many cats are there on the tree?", 1, 10);
+            var alternative1 = new Alternative(1, "1", false);
+            var alternative2 = new Alternative(2, "2", true);
+            var alternative3 = new Alternative(3, "3", false);
 
             question.AddAlternative(alternative1);
             question.AddAlternative(alternative2);
             question.AddAlternative(alternative3);
 
-            alternative2.MarkTrue();
+            question.Alternatives[1].MarkTrue();
             this._homeWork.AddQuestion(question);
 
             Assert.IsTrue(alternative2.Marked);
+        }
+
+        [TestMethod]
+        public void ShouldBeScoringScoreWhenAnswerValid()
+        {
+            var question = new Question("How many cats are there on the tree?", 1, 10);
+            var alternative1 = new Alternative(1, "1", true);
+            var alternative2 = new Alternative(2, "2", false);
+            var alternative3 = new Alternative(3, "3", false);
+
+            question.AddAlternative(alternative1);
+            question.AddAlternative(alternative2);
+            question.AddAlternative(alternative3);
+
+            question.Alternatives[0].MarkTrue();
+            this._homeWork.AddQuestion(question);
+            this._homeWork.AnswerQuestion(question.Uid, alternative1);
+
+            
         }
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using HomeEnglish.Domain.DomainContext.ValueObjects;
 using HomeEnglish.Shared.Entities;
 
 namespace HomeEnglish.Domain.DomainContext.Entitites

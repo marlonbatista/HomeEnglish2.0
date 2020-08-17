@@ -33,16 +33,18 @@ namespace HomeEnglish.Domain.DomainContext.Entitites
             this.Questions.Remove(question);
         }
 
-        public void AnswerQuestion(Question question)
+        public void AnswerQuestion(Guid idQuestion, Alternative alt)
         {
-            var awsore = Questions.FirstOrDefault(x => x.Uid == question.Uid);
-            foreach (var item in awsore.Alternatives)
+            var result = Questions.FirstOrDefault(x => x.Uid == idQuestion);
+            var mark = result.Alternatives.FirstOrDefault(al => al.Text == alt.Text && al.Index == alt.Index);
+            if(mark.Correct)
             {
-                item.MarkFalse();
+                this.Score = 100 + result.Weight;
+                Console.WriteLine($"Total Score {this.Score}");
             }
-            var mark = question.Alternatives.FirstOrDefault(aws => aws.Marked == true);
-            var res = awsore.Alternatives.FirstOrDefault(e => e == mark);
-            res = mark;
+
+            Console.WriteLine("Option select is invalid");
+            
         }
     }
 

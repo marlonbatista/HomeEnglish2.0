@@ -22,5 +22,10 @@ namespace HomeEnglish.Domain.Entities
         {
             this.CelPhone = number;
         }
+
+        public override string ToString()
+        {
+            return this.Name.ToString();
+        }
     }
 }

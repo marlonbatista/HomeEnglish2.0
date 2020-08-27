@@ -6,6 +6,7 @@ C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Te
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Tests.runtimeconfig.dev.json
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Tests.dll
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Tests.pdb
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\FluentValidator.dll
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -84,14 +85,13 @@ C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Te
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Domain.dll
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Shared.dll
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Domain.pdb
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Shared.pdb
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\obj\Debug\netcoreapp3.1\HomeEnglish.Tests.csprojAssemblyReference.cache
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\obj\Debug\netcoreapp3.1\HomeEnglish.Tests.AssemblyInfoInputs.cache
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\obj\Debug\netcoreapp3.1\HomeEnglish.Tests.AssemblyInfo.cs
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\obj\Debug\netcoreapp3.1\HomeEnglish.Tests.csproj.CopyComplete
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\obj\Debug\netcoreapp3.1\HomeEnglish.Tests.dll
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\obj\Debug\netcoreapp3.1\HomeEnglish.Tests.pdb
-c:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\FluentValidator.dll
-c:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Domain.dll
-c:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Shared.dll
-c:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Domain.pdb
-c:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Tests\bin\Debug\netcoreapp3.1\HomeEnglish.Shared.pdb

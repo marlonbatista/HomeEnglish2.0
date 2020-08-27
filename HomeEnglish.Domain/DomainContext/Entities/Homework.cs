@@ -12,6 +12,7 @@ namespace HomeEnglish.Domain.DomainContext.Entitites
         public Guid UidTeacher { get; private set; }
         public Guid UidStudent { get; private set; }
         public IList<Question> Questions { get; private set; }
+
         public decimal Score { get; private set; }
         public decimal Weight { get; private set; }
 
@@ -37,7 +38,7 @@ namespace HomeEnglish.Domain.DomainContext.Entitites
         {
             var result = Questions.FirstOrDefault(x => x.Uid == idQuestion);
             var mark = result.Alternatives.FirstOrDefault(al => al.Text == alt.Text && al.Index == alt.Index);
-            if(mark.Correct)
+            if(!mark.Correct)
             {
                 this.Score = 100 + result.Weight;
                 Console.WriteLine($"Total Score {this.Score}");
@@ -45,6 +46,11 @@ namespace HomeEnglish.Domain.DomainContext.Entitites
 
             Console.WriteLine("Option select is invalid");
             
+        }
+
+        public override string ToString()
+        {
+            return $"Id :{this.Uid}, Student:{this.UidStudent}, Teacher:{this.UidTeacher} ";
         }
     }
 

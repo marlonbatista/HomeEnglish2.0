@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "FluentValidator/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -25,10 +37,46 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "HomeEnglish.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2",
+          "HomeEnglish.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HomeEnglish.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HomeEnglish.Domain.dll": {}
+        }
+      },
+      "HomeEnglish.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HomeEnglish.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HomeEnglish.Shared.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "FluentValidator/2.0.2": {
+      "sha512": "+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "type": "package",
+      "path": "fluentvalidator/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidator.2.0.2.nupkg.sha512",
+        "fluentvalidator.nuspec",
+        "lib/netstandard1.3/FluentValidator.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -172,10 +220,21 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "HomeEnglish.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HomeEnglish.Domain/HomeEnglish.Domain.csproj",
+      "msbuildProject": "../HomeEnglish.Domain/HomeEnglish.Domain.csproj"
+    },
+    "HomeEnglish.Shared/1.0.0": {
+      "type": "project",
+      "path": "../HomeEnglish.Shared/HomeEnglish.Shared.csproj",
+      "msbuildProject": "../HomeEnglish.Shared/HomeEnglish.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "HomeEnglish.Domain >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -209,7 +268,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\marlo\\OneDrive\\Documentos\\HomeEnglish\\HomeEnglishContext\\HomeEnglish.Domain\\HomeEnglish.Domain.csproj": {
+              "projectPath": "C:\\Users\\marlo\\OneDrive\\Documentos\\HomeEnglish\\HomeEnglishContext\\HomeEnglish.Domain\\HomeEnglish.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -6,7 +6,7 @@ using HomeEnglish.Shared.Entities;
 
 namespace HomeEnglish.Domain.Entities
 {
-    public class Vocabulary : BaseEntity
+    public class Vocabulary : BaseEntity<Vocabulary>
     {
         public Guid UidStudent { get; private set; }
         public IList<Word> Words { get; private set; }

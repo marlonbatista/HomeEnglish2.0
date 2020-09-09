@@ -2,7 +2,7 @@ using HomeEnglish.Shared.Entities;
 
 namespace HomeEnglish.Domain.Entities
 {
-    public class Word : BaseEntity
+    public class Word : BaseEntity<Word>
     {
         public string Text { get; private set; }
         public string Translate { get; private set; }

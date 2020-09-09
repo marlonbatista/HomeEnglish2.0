@@ -4,14 +4,14 @@ namespace HomeEnglish.Domain.DomainContext.ValueObjects
 {
     public class Alternative : Notifiable
     {
-        public int Index { get; private set; }
+        public int Number { get; private set; }
         public string Text { get; private set; }
         public bool Correct { get; private set;}
         public bool Marked { get; private set; }
 
-        public Alternative(int index, string text, bool correct)
+        public Alternative(int number, string text, bool correct)
         {
-            this.Index = index;
+            this.Number = number;
             this.Text = text;
             this.Correct = correct;
             this.Marked = false;

@@ -6,7 +6,7 @@ using HomeEnglish.Shared.Entities;
 
 namespace HomeEnglish.Domain.DomainContext.Entitites
 {
-    public class Homework : BaseEntity
+    public class Homework : BaseEntity<Homework>
     {
         public string Translate { get; private set; }
         public Guid UidTeacher { get; private set; }
@@ -37,7 +37,7 @@ namespace HomeEnglish.Domain.DomainContext.Entitites
         public void AnswerQuestion(Guid idQuestion, Alternative alt)
         {
             var result = Questions.FirstOrDefault(x => x.Uid == idQuestion);
-            var mark = result.Alternatives.FirstOrDefault(al => al.Text == alt.Text && al.Index == alt.Index);
+            var mark = result.Alternatives.FirstOrDefault(al => al.Text == alt.Text && al.Number == alt.Number);
             if(!mark.Correct)
             {
                 this.Score = 100 + result.Weight;

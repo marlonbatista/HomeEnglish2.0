@@ -4,7 +4,7 @@ using HomeEnglish.Shared.Entities;
 
 namespace HomeEnglish.Domain.Entities
 {
-    public abstract class Person : BaseEntity
+    public abstract class Person : BaseEntity<Person>
     {
         public Name Name { get; set; }
         public DateTime Birthday { get; set; }

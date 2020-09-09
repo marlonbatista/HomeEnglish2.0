@@ -64,8 +64,6 @@ namespace HomeEnglish.Tests
             question.Alternatives[0].MarkTrue();
             this._homeWork.AddQuestion(question);
             this._homeWork.AnswerQuestion(question.Uid, alternative1);
-
-            
         }
     }
 }

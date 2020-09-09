@@ -31,6 +31,7 @@ namespace HomeEnglish.Domain.Entities
             this.UidTeacher = uidTeacher;
             this.Date = date;
             this.Score = 0;
+            this.Vocabulary = vocabulary;
         }
 
         public void CountScore()

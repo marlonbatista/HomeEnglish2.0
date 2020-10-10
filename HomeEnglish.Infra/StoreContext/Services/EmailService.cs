@@ -29,6 +29,7 @@ namespace HomeEnglish.Infra.StoreContext.Services
                 smp.EnableSsl = true;
                 smp.Credentials = new System.Net.NetworkCredential("your e-mail from google", "your password");
                 MailMessage mail = this.createMail(to, from, subject, body);
+                smp.Send(mail);
             }
             catch (System.Exception ex)
             {

@@ -15,5 +15,10 @@ namespace HomeEnglish.Domain.ValueObjects
                 .IsEmail(this.Address, nameof(this.Address), "the e-mail address is not valid")
             );
         }
+
+        public override string ToString()
+        {
+            return Address;
+        }
     }
 }

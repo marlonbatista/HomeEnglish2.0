@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using HomeEnglish.Domain.DomainContext.ValueObjects;
 using HomeEnglish.Shared.Entities;
+using MongoDB.Bson;
 
 namespace HomeEnglish.Domain.DomainContext.Entitites
 {
@@ -15,7 +16,7 @@ namespace HomeEnglish.Domain.DomainContext.Entitites
         public Boolean valid { get; private set; }
         public Question(string text, int number, decimal weight)
         {
-            this.Uid = Guid.NewGuid();
+            this.Uid = ObjectId.GenerateNewId().ToString();
             this.Text = text;
             this.Number = number;
             this.Alternatives = new List<Alternative>();
@@ -27,13 +28,13 @@ namespace HomeEnglish.Domain.DomainContext.Entitites
             this.Alternatives.Add(alternative);
         }
 
-         public void AnwserQuestion(Guid uidQuestion, Alternative alternative)
+         public void AnwserQuestion(String uidQuestion, Alternative alternative)
         {
             Alternative alt = Alternatives.FirstOrDefault(al => al == alternative);
             alt.MarkTrue();
         }
 
-        public void CancelCancel(Guid guidTeacher)
+        public void CancelCancel(String guidTeacher)
         {
             if(guidTeacher == null)
             {

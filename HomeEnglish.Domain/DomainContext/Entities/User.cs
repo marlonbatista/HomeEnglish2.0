@@ -1,5 +1,6 @@
 using FluentValidator;
 using HomeEnglish.Domain.ValueObjects;
+using HomeEnglish.Shared.Entities;
 
 namespace HomeEnglish.Domain.Entities
 {
@@ -7,7 +8,7 @@ namespace HomeEnglish.Domain.Entities
     {
         public string Login { get; set; }
         public Email Email { get; set; }
-        public string Password { get; set; }
+        public string Password { get; private set; }
 
         public string RecoverPassword(Email email,string Password)
         {
@@ -15,7 +16,12 @@ namespace HomeEnglish.Domain.Entities
             return "";
         }
 
-        public string toString()
+        protected void changePassword(string newPassword)
+        {
+            Password = Function.EncodeHash(newPassword);
+        }
+
+        public override string ToString()
         {
             return base.ToString();
         }
@@ -25,7 +31,7 @@ namespace HomeEnglish.Domain.Entities
             // Check email and password exists
             if(this.Email.Address != email || this.Password != password)
             {
-                return $"Welcome to HomeEnglish, {this.Name.toString()} ";
+                return $"Welcome to HomeEnglish, {Name.ToString()} ";
             }
             
             // Return message

@@ -2,14 +2,15 @@ using System;
 using System.Collections.Generic;
 using HomeEnglish.Domain.DomainContext.Entitites;
 using HomeEnglish.Domain.Entities;
+using HomeEnglish.Shared.Interfaces;
+using MongoDB.Bson;
 
 namespace HomeEnglish.Domain.Interfaces
 {
-    public interface IProof
+    public interface IProof : IBaseEntity
     {
-        Guid Uid { get; set;}
-        Guid UidStudent { get; set; }
-        Guid UidTeacher { get; set; }
+        String UidStudent { get; set; }
+        String UidTeacher { get; set; }
         Decimal Score { get; set; }
 
         DateTime Date { get;}

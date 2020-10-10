@@ -5,14 +5,20 @@ using HomeEnglish.Domain.DomainContext.Entitites;
 using HomeEnglish.Domain.DomainContext.ValueObjects;
 using HomeEnglish.Domain.Interfaces;
 using HomeEnglish.Shared.Entities;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace HomeEnglish.Domain.Entities
 {
     public class Proof : BaseEntity<Proof>, IProof
     {
         private List<Question> _questions;
-        public Guid UidStudent { get; set; }
-        public Guid UidTeacher { get; set; }
+        
+        [BsonRepresentation(BsonType.ObjectId)]
+        public String UidStudent { get; set; }
+
+        [BsonRepresentation(BsonType.ObjectId)]
+        public String UidTeacher { get; set; }
         public Decimal Score { get; set; }
         public Vocabulary Vocabulary { get; set; }
         public IReadOnlyList<Question> Questions => this._questions.ToArray();
@@ -21,8 +27,8 @@ namespace HomeEnglish.Domain.Entities
         public DateTime DateFinish { get; private set; }
 
         public Proof(List<Question> questions,
-                    Guid uidStudent,
-                    Guid uidTeacher,
+                    String uidStudent,
+                    String uidTeacher,
                     DateTime date,
                     Vocabulary vocabulary)
         {

@@ -1,9 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\HomeEnglish.Shared\HomeEnglish.Shared.csproj"/>
+    <ProjectReference Include="..\HomeEnglish.Shared\HomeEnglish.Shared.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="FluentValidator" Version="2.0.2"/>
+    <PackageReference Include="FluentValidator" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Build" Version="16.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DomainContext\Commands\Inputs\TeacherCommands\" />
+    <Folder Include="DomainContext\Commands\Inputs\NovaPasta\" />
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>

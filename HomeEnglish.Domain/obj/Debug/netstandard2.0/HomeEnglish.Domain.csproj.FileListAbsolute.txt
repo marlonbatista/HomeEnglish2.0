@@ -9,3 +9,4 @@ C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Do
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\obj\Debug\netstandard2.0\HomeEnglish.Domain.csproj.CopyComplete
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\obj\Debug\netstandard2.0\HomeEnglish.Domain.dll
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\obj\Debug\netstandard2.0\HomeEnglish.Domain.pdb
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Domain\obj\Debug\netstandard2.0\HomeEnglish.Domain.csproj.CoreCompileInputs.cache

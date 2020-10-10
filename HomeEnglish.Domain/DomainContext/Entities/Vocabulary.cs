@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using HomeEnglish.Domain.Enumns;
 using HomeEnglish.Shared.Entities;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace HomeEnglish.Domain.Entities
 {
     public class Vocabulary : BaseEntity<Vocabulary>
     {
-        public Guid UidStudent { get; private set; }
+        [BsonRepresentation(BsonType.ObjectId)]
+        public String UidStudent { get; private set; }
         public IList<Word> Words { get; private set; }
 
-        public Vocabulary(Guid uidStudent)
+        public Vocabulary(String uidStudent)
         {
             this.UidStudent = uidStudent;
             this.Words = new List<Word>();

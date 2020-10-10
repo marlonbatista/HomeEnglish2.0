@@ -1,4 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Build" Version="16.6.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.11.2" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\HomeEnglish.Domain\HomeEnglish.Domain.csproj" />

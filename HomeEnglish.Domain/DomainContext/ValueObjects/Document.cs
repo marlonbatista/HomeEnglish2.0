@@ -13,7 +13,6 @@ namespace HomeEnglish.Domain.ValueObjects
             this.Number = number;
 
             AddNotifications(new ValidationContract()
-                .AreEquals(this.Number, 11, nameof(this.Number), "Document should be have 11 caracteres")
                 .IsTrue(Validation(this.Number), nameof(this.Number), "Documento is invalid!")
             );
         }
@@ -53,6 +52,12 @@ namespace HomeEnglish.Domain.ValueObjects
             digito = digito + resto.ToString();
             return cpf.EndsWith(digito);
         }
+
+        public override string ToString()
+        {
+            return Number;
+        }
     }
+    
 
 }

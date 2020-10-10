@@ -6,3 +6,9 @@ C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.In
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\obj\Debug\netstandard2.0\HomeEnglish.Infra.AssemblyInfo.cs
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\obj\Debug\netstandard2.0\HomeEnglish.Infra.dll
 C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\obj\Debug\netstandard2.0\HomeEnglish.Infra.pdb
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\bin\Debug\netstandard2.0\HomeEnglish.Domain.dll
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\bin\Debug\netstandard2.0\HomeEnglish.Shared.dll
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\bin\Debug\netstandard2.0\HomeEnglish.Domain.pdb
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\bin\Debug\netstandard2.0\HomeEnglish.Shared.pdb
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\obj\Debug\netstandard2.0\HomeEnglish.Infra.csproj.CopyComplete
+C:\Users\marlo\OneDrive\Documentos\HomeEnglish\HomeEnglishContext\HomeEnglish.Infra\obj\Debug\netstandard2.0\HomeEnglish.Infra.csproj.CoreCompileInputs.cache

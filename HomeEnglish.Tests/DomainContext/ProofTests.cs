@@ -4,21 +4,26 @@ using HomeEnglish.Domain.DomainContext.Entitites;
 using HomeEnglish.Domain.DomainContext.ValueObjects;
 using HomeEnglish.Domain.Entities;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace HomeEnglish.Tests
 {
     [TestClass]
     public class ProofTest
     {
-        private Guid _idStudent { get; set; }
-        private Guid _idTeacher { get; set; }
+        [BsonRepresentation(BsonType.ObjectId)]
+        private String _idStudent { get; set; }
+
+        [BsonRepresentation(BsonType.ObjectId)]
+        private String _idTeacher { get; set; }
         private Alternative _alternative { get; set; }
         private Question _question { get; set; }
 
         public ProofTest()
         {
-            this._idStudent = Guid.NewGuid();
-            this._idTeacher = Guid.NewGuid();
+            this._idStudent = ObjectId.GenerateNewId().ToString();
+            this._idTeacher = ObjectId.GenerateNewId().ToString();
             this._question = CreateQuetion("Who is the first man in the holy bible?",1,10);
         }
 

@@ -2,20 +2,21 @@ using System;
 using HomeEnglish.Domain.DomainContext.Entitites;
 using HomeEnglish.Domain.DomainContext.ValueObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MongoDB.Bson;
 
 namespace HomeEnglish.Tests
 {
     [TestClass]
     public class HomeworkTest
     {
-        private Guid _idStudent { get; set; }
-        private Guid _idTeacher { get; set; }
+        private String _idStudent { get; set; }
+        private String _idTeacher { get; set; }
         private Homework _homeWork { get; set; }
 
         public HomeworkTest()
         {
-            this._idStudent = Guid.NewGuid();
-            this._idTeacher = Guid.NewGuid();
+            this._idStudent = ObjectId.GenerateNewId().ToString();
+            this._idTeacher = ObjectId.GenerateNewId().ToString();
             this._homeWork = new Homework(this._idTeacher, this._idStudent);
         }
 

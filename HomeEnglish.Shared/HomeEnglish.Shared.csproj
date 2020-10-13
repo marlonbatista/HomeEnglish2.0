@@ -1,7 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Build" Version="16.6.0"/>
+    <PackageReference Include="MongoDB.Bson" Version="2.11.2"/>
+    <PackageReference Include="MongoDB.Driver" Version="2.11.2"/>
+    <PackageReference Include="FluentValidator" Version="2.0.2"/>
+  </ItemGroup>
 </Project>
